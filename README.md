@@ -11,8 +11,8 @@ Single-page Arabic (RTL) invitation for Friday 30 October 2026, City Mark Resort
 | `music.mp3` | Optional. Add any track under ~2 MB; the music button appears only when this file exists |
 
 ## Before going live
-1. Replace `SITE_DOMAIN` (4 places in `index.html`) with the final domain, e.g. `mazin-tibyan.com`.
-2. Add a file named `CNAME` containing just the domain.
+1. Domain: mazin-tibyan.com (already set in index.html and CNAME).
+2. Nothing else: push to main and the workflow deploys.
 
 ## Settings (top of the script in `index.html`)
 ```js
@@ -25,8 +25,8 @@ Egypt leaves summer time at midnight on 30 Oct 2026, so the wedding night is UTC
 
 ## GitHub Pages
 1. New **public** repo, upload all files, Settings → Pages → Deploy from branch `main` / root.
-2. Domain DNS (GoDaddy): A records `@` → `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153`; CNAME `www` → `<github-user>.github.io`.
+2. Domain DNS (GoDaddy): A records `@` → `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153`; CNAME `www` → `mozahim.github.io`.
 3. Settings → Pages → Custom domain → enter the domain, wait for the certificate, tick **Enforce HTTPS**.
 
 ## Personal guest links
-`https://<domain>/?guest=اسم%20الضيف` greets the guest by name on the envelope and header.
+`https://mazin-tibyan.com/?guest=اسم%20الضيف` greets the guest by name on the envelope and header.
