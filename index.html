@@ -1,0 +1,681 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>دعوة زفاف مازن وتبيان</title>
+<meta name="description" content="يتشرف آل عبدالله رجب حسن وآل المرحوم صالح عثمان احمد دياب بدعوتكم لحضور حفل زفاف مازن وتبيان، يوم الجمعة 30 أكتوبر 2026، قاعات سيتي مارك، الهرم.">
+<meta name="theme-color" content="#f7ede3">
+
+<!-- Link preview (WhatsApp / social). SITE_URL is filled in by deploy: see README -->
+<meta property="og:type" content="website">
+<meta property="og:locale" content="ar_AR">
+<meta property="og:title" content="دعوة زفاف مازن & تبيان">
+<meta property="og:description" content="الجمعة 30 أكتوبر 2026 · قاعات سيتي مارك، الهرم · بحضوركم تكتمل فرحتنا">
+<meta property="og:image" content="https://mozahim.github.io/tibyan-wedding/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://mozahim.github.io/tibyan-wedding/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="دعوة زفاف مازن & تبيان">
+<meta name="twitter:description" content="الجمعة 30 أكتوبر 2026 · قاعات سيتي مارك، الهرم">
+<meta name="twitter:image" content="https://mozahim.github.io/tibyan-wedding/og-image.png">
+
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="favicon-192.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Amiri:wght@400;700&family=Aref+Ruqaa:wght@400;700&display=swap" rel="stylesheet">
+
+<style>
+:root{
+  --cream:#fbf5ee;
+  --cream-2:#f4e8dc;
+  --blush:#e8c3b9;
+  --blush-deep:#cf9d92;
+  --gold:#bf9346;
+  --gold-light:#e6c98c;
+  --gold-deep:#9a7130;
+  --maroon:#7c1427;
+  --maroon-deep:#5a0d1c;
+  --ink:#3d2c26;
+  --ink-soft:#6f5a51;
+  --green-verse:#3f5a3a;
+  --radius:22px;
+  --shadow:0 18px 50px -20px rgba(124,20,39,.28), 0 4px 14px -6px rgba(154,113,48,.2);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%;scroll-behavior:auto;overflow-x:hidden}
+body{
+  font-family:"Almarai",system-ui,-apple-system,"Segoe UI",Tahoma,sans-serif;
+  color:var(--ink);
+  background:var(--cream);
+  line-height:1.8;
+  overflow-x:hidden;
+  min-height:100vh;
+}
+body.locked{overflow:hidden;height:100vh;height:100svh}
+img,svg{display:block}
+button{font:inherit;cursor:pointer;border:0;background:none;color:inherit}
+a{color:inherit}
+
+/* ---------- Background: silk waves ---------- */
+.bg{position:fixed;top:0;left:0;right:0;bottom:0;z-index:-2;pointer-events:none;
+  background:
+    radial-gradient(120% 70% at 110% 105%, rgba(207,157,146,.55) 0%, rgba(232,195,185,.35) 30%, transparent 60%),
+    radial-gradient(90% 60% at -15% -5%, rgba(207,157,146,.5) 0%, rgba(232,195,185,.3) 32%, transparent 62%),
+    radial-gradient(60% 40% at 50% 50%, #fffaf4 0%, transparent 70%),
+    linear-gradient(180deg,#fbf3ea 0%,#f7ece2 100%);
+}
+.bg svg{position:absolute;width:100%;height:100%;top:0;left:0}
+
+/* ---------- Envelope intro ---------- */
+#intro{
+  position:fixed;top:0;left:0;right:0;bottom:0;z-index:50;
+  display:flex;align-items:center;justify-content:center;flex-direction:column;
+  padding:24px 16px;
+  background:
+    radial-gradient(80% 60% at 50% 40%, rgba(255,250,244,.96), rgba(244,232,220,.98)),
+    var(--cream-2);
+  transition:opacity .9s ease, visibility .9s ease;
+}
+#intro.gone{opacity:0;visibility:hidden}
+.env-wrap{position:relative;width:min(340px,86vw);aspect-ratio:1.45/1;-webkit-perspective:1200px;perspective:1200px}
+.env{position:absolute;top:0;left:0;right:0;bottom:0;border-radius:10px;
+  background:linear-gradient(160deg,#f9eee6,#efd7cc);
+  box-shadow:0 30px 60px -25px rgba(124,20,39,.45), inset 0 0 0 1px rgba(191,147,70,.45);
+  overflow:hidden}
+.env::before,.env::after{content:"";position:absolute;bottom:0;width:60%;height:70%;background:linear-gradient(160deg,#f3dfd5,#e8c6ba)}
+.env::before{left:0;-webkit-clip-path:polygon(0 0,100% 100%,0 100%);clip-path:polygon(0 0,100% 100%,0 100%)}
+.env::after{right:0;-webkit-clip-path:polygon(100% 0,100% 100%,0 100%);clip-path:polygon(100% 0,100% 100%,0 100%)}
+.flap{position:absolute;top:0;left:0;right:0;height:62%;z-index:3;
+  background:linear-gradient(180deg,#ecccbf,#ddb0a2);
+  -webkit-clip-path:polygon(0 0,100% 0,50% 100%);clip-path:polygon(0 0,100% 0,50% 100%);
+  -webkit-transform-origin:top;transform-origin:top;transition:transform 1s cubic-bezier(.6,.05,.3,1)}
+.flap-line{position:absolute;top:0;left:0;right:0;height:62%;z-index:4;pointer-events:none}
+.opening .flap{transform:rotateX(180deg)}
+.seal{position:absolute;z-index:6;left:50%;top:62%;width:86px;height:86px;margin:-43px 0 0 -43px;border-radius:50%;
+  background:radial-gradient(circle at 35% 30%,#a8273d,#7c1427 55%,#4f0a17);
+  box-shadow:0 6px 16px rgba(80,10,23,.45), inset 0 0 0 4px rgba(255,255,255,.08), inset 0 -6px 10px rgba(0,0,0,.25);
+  display:flex;align-items:center;justify-content:center;transition:transform .7s ease, opacity .7s ease}
+.seal::before{content:"";position:absolute;top:7px;left:7px;right:7px;bottom:7px;border-radius:50%;border:1.5px dashed rgba(230,201,140,.7)}
+.seal span{font-family:"Aref Ruqaa",serif;font-size:27px;color:var(--gold-light);text-shadow:0 1px 0 rgba(0,0,0,.35);letter-spacing:2px;line-height:1}
+.seal small{font-size:13px;margin:0 3px;color:#f2c9cf}
+.opening .seal{transform:scale(1.25);opacity:0}
+.intro-txt{margin-top:34px;text-align:center}
+.intro-guest{font-size:15px;color:var(--ink-soft);min-height:1.5em}
+.intro-guest b{color:var(--maroon);font-weight:800}
+.intro-names{font-family:"Aref Ruqaa",serif;font-size:34px;color:var(--maroon);line-height:1.5;margin-top:4px}
+.intro-names .amp{color:var(--gold);font-family:"Amiri",serif;font-size:.8em;margin:0 8px}
+.open-btn{margin-top:18px;padding:13px 34px;border-radius:999px;font-weight:700;font-size:16px;color:#fff;
+  background:linear-gradient(135deg,var(--gold-deep),var(--gold) 45%,#d7b36a);
+  box-shadow:0 10px 24px -10px rgba(154,113,48,.8);animation:pulse 2.2s ease-in-out infinite}
+.open-btn:active{transform:scale(.97)}
+@keyframes pulse{0%,100%{box-shadow:0 10px 24px -10px rgba(154,113,48,.8),0 0 0 0 rgba(191,147,70,.45)}50%{box-shadow:0 10px 24px -10px rgba(154,113,48,.8),0 0 0 12px rgba(191,147,70,0)}}
+
+/* ---------- Layout ---------- */
+main{position:relative;z-index:1;max-width:760px;margin:0 auto;padding:0 16px 60px;overflow-x:hidden;overflow-x:clip}
+section{position:relative;margin:0 auto 34px}
+.card{
+  position:relative;background:rgba(255,251,246,.82);
+  -webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px);
+  border-radius:var(--radius);padding:34px 22px;box-shadow:var(--shadow);
+  border:1px solid rgba(191,147,70,.35)
+}
+.card::before{content:"";position:absolute;top:8px;left:8px;right:8px;bottom:8px;border-radius:calc(var(--radius) - 7px);border:1px solid rgba(191,147,70,.28);pointer-events:none}
+.center{text-align:center}
+.reveal{opacity:0;transform:translateY(26px);transition:opacity 1s ease, transform 1s ease}
+.reveal.in{opacity:1;transform:none}
+
+/* ---------- Hero ---------- */
+.hero{min-height:100vh;min-height:100svh;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:70px 0 40px;text-align:center}
+.arch{position:relative;width:100%;max-width:620px;padding:48px 20px 36px;border-radius:300px 300px 26px 26px;
+  background:linear-gradient(180deg,rgba(255,252,247,.92),rgba(253,246,239,.86));
+  box-shadow:var(--shadow);border:1.5px solid rgba(191,147,70,.55)}
+.arch::before{content:"";position:absolute;top:9px;left:9px;right:9px;bottom:9px;border-radius:290px 290px 20px 20px;border:1px solid rgba(191,147,70,.35);pointer-events:none}
+.basmala{font-family:"Amiri",serif;font-size:18px;color:var(--gold-deep)}
+.verse{font-family:"Amiri",serif;font-size:19px;line-height:2;color:var(--green-verse);margin:6px auto 0;max-width:430px}
+.verse small{display:block;font-size:13px;color:var(--ink-soft);font-family:"Almarai",sans-serif}
+.orn{display:flex;align-items:center;justify-content:center;gap:10px;margin:14px auto;width:min(300px,80%)}
+.orn::before,.orn::after{content:"";flex:1;height:1px;background:linear-gradient(90deg,transparent,var(--gold),transparent)}
+.orn svg{width:22px;height:22px;flex:none}
+.title{font-family:"Aref Ruqaa",serif;font-weight:700;font-size:clamp(52px,15vw,84px);line-height:1.25;
+  background:linear-gradient(100deg,#9a7130 0%,#d9b467 22%,#f4e2b0 34%,#c49a4a 48%,#9a7130 64%,#e3c47f 82%,#9a7130 100%);
+  background-size:220% auto;-webkit-background-clip:text;background-clip:text;color:transparent;-webkit-text-fill-color:transparent;
+  animation:shine 5s linear infinite;padding:0 6px;filter:drop-shadow(0 2px 1px rgba(154,113,48,.18))}
+@keyframes shine{to{background-position:-220% center}}
+.families{display:grid;grid-template-columns:1fr auto 1fr;gap:6px 14px;align-items:center;margin:8px auto 4px;max-width:560px}
+.families .col p{font-weight:700;font-size:15px;line-height:1.9;color:var(--ink)}
+.families .vline{width:1.5px;height:62px;background:linear-gradient(180deg,transparent,var(--gold),transparent)}
+.invite-line{font-size:17px;color:#33463a;margin-top:16px;font-weight:700}
+.guest-line{font-size:15px;color:var(--ink-soft);margin-top:10px;min-height:0}
+.guest-line b{color:var(--maroon)}
+.names{display:flex;align-items:center;justify-content:center;gap:4px;margin:6px 0 0}
+.names .laurel{width:54px;height:110px;flex:none}
+.names .laurel.l{transform:scaleX(-1)}
+.names h1{font-family:"Aref Ruqaa",serif;font-weight:700;font-size:clamp(46px,13vw,76px);line-height:1.35;color:var(--maroon);
+  display:flex;align-items:center;gap:12px;text-shadow:0 2px 0 rgba(255,255,255,.6)}
+.names .amp{font-family:"Amiri",serif;font-size:.62em;color:var(--gold);font-weight:700}
+.blessing{font-size:16px;color:#33463a;font-weight:700;margin-top:2px}
+.scroll-hint{margin-top:26px;font-size:13px;color:var(--ink-soft);display:flex;flex-direction:column;align-items:center;gap:4px}
+.scroll-hint svg{width:22px;height:22px;animation:bob 1.8s ease-in-out infinite}
+@keyframes bob{50%{transform:translateY(6px)}}
+
+/* flower clusters */
+.flora{position:absolute;pointer-events:none;z-index:2}
+.flora.tr{top:-20px;right:-10px;width:140px}
+.flora.bl{bottom:-20px;left:-10px;width:140px;transform:rotate(180deg)}
+.twinkle{position:absolute;width:6px;height:6px;border-radius:50%;background:var(--gold-light);box-shadow:0 0 8px 2px rgba(230,201,140,.8);animation:tw 3s ease-in-out infinite;opacity:0}
+@keyframes tw{50%{opacity:1;transform:scale(1.3)}}
+
+/* ---------- Rings line-art ---------- */
+.art{position:relative;height:250px;display:flex;align-items:center;justify-content:center}
+.art svg{width:260px;height:230px;overflow:visible}
+.art .draw{fill:none;stroke:var(--gold);stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}
+.art .draw.m{stroke:var(--maroon)}
+.art .draw.thin{stroke-width:1.4}
+.heart-float{position:absolute;bottom:20px;font-size:16px;color:var(--blush-deep);opacity:0;animation:floatUp 5s ease-in infinite}
+@keyframes floatUp{0%{opacity:0;transform:translateY(0) scale(.7)}15%{opacity:.9}100%{opacity:0;transform:translateY(-200px) scale(1.15)}}
+.art-cap{font-family:"Aref Ruqaa",serif;font-size:26px;color:var(--maroon);text-align:center;margin-top:-6px}
+
+/* ---------- Section heading ---------- */
+.h2{font-family:"Aref Ruqaa",serif;font-weight:700;font-size:34px;color:var(--maroon);text-align:center;line-height:1.4}
+.sub{text-align:center;color:var(--ink-soft);font-size:14px;margin-top:2px}
+
+/* ---------- Soon banner ---------- */
+.soon{display:none;margin:0 auto 26px;max-width:520px;text-align:center;padding:12px 18px;border-radius:999px;font-weight:800;color:#fff;
+  background:linear-gradient(135deg,var(--maroon),#a3283f);box-shadow:0 10px 26px -12px rgba(124,20,39,.7);animation:soonPulse 2.4s ease-in-out infinite}
+.soon.show{display:block}
+@keyframes soonPulse{50%{transform:scale(1.03)}}
+
+/* ---------- Countdown ---------- */
+.cd{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:22px;direction:rtl}
+.cd div{background:linear-gradient(180deg,#fffaf4,#f7e9df);border:1px solid rgba(191,147,70,.45);border-radius:16px;padding:14px 4px 10px;text-align:center;box-shadow:inset 0 -3px 0 rgba(191,147,70,.18)}
+.cd b{display:block;font-size:clamp(26px,8vw,40px);font-weight:800;color:var(--maroon);line-height:1.1;font-variant-numeric:tabular-nums}
+.cd span{font-size:13px;color:var(--ink-soft)}
+.cd-done{display:none;text-align:center;font-family:"Aref Ruqaa",serif;font-size:28px;color:var(--maroon);margin-top:16px}
+
+/* ---------- Details ---------- */
+.det-grid{display:grid;grid-template-columns:1fr;gap:14px;margin-top:22px}
+.det{display:flex;gap:14px;align-items:flex-start;padding:16px;border-radius:18px;background:rgba(255,255,255,.6);border:1px solid rgba(191,147,70,.3)}
+.det .ic{flex:none;width:46px;height:46px;border-radius:14px;display:flex;align-items:center;justify-content:center;
+  background:linear-gradient(135deg,#f6e3c2,#e9cc94);color:var(--gold-deep)}
+.det .ic svg{width:24px;height:24px}
+.det h3{font-size:14px;color:var(--ink-soft);font-weight:400}
+.det p{font-size:18px;font-weight:800;color:var(--ink);line-height:1.6}
+.det p.big{font-size:22px;color:var(--maroon)}
+.det .note{font-size:14px;font-weight:400;color:var(--ink-soft)}
+.det .en{direction:ltr;unicode-bidi:isolate;font-size:14px;color:var(--ink-soft);font-weight:700}
+.pill{display:inline-block;margin-top:6px;padding:4px 14px;border-radius:999px;font-size:14px;font-weight:700;color:var(--maroon);background:#f9e6e2;border:1px solid #efc7c0}
+.btns{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:20px}
+.btn{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;padding:14px 6px;border-radius:16px;text-decoration:none;
+  font-size:14px;font-weight:700;color:var(--ink);background:#fff;border:1px solid rgba(191,147,70,.45);transition:transform .2s ease, box-shadow .2s ease}
+.btn svg{width:24px;height:24px;color:var(--gold-deep)}
+.btn:hover{transform:translateY(-2px);box-shadow:0 10px 20px -12px rgba(124,20,39,.35)}
+.btn.primary{background:linear-gradient(135deg,var(--maroon),#9d2238);color:#fff;border-color:transparent}
+.btn.primary svg{color:var(--gold-light)}
+.toast{position:fixed;left:50%;bottom:90px;transform:translateX(-50%) translateY(20px);background:var(--ink);color:#fff;padding:10px 18px;border-radius:999px;font-size:14px;opacity:0;transition:.35s;z-index:60;pointer-events:none}
+.toast.show{opacity:1;transform:translateX(-50%)}
+
+/* ---------- Closing ---------- */
+.closing{position:relative;padding:3px;border-radius:calc(var(--radius) + 3px);overflow:hidden}
+.closing::before{content:"";position:absolute;left:-50%;top:-50%;width:200%;height:200%;
+  background:conic-gradient(from 0deg,transparent 0 20%,var(--gold) 30%,#f4e2b0 35%,var(--gold) 40%,transparent 50% 70%,var(--blush-deep) 80%,transparent 90%);
+  animation:spin 6s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+.closing .inner{position:relative;border-radius:var(--radius);background:linear-gradient(180deg,#fffaf4,#f9ece3);padding:40px 22px;text-align:center}
+.closing .h2{font-size:clamp(30px,9vw,42px);
+  background:linear-gradient(100deg,var(--maroon) 0%,#b23a50 40%,var(--maroon) 60%,#a12a40 100%);background-size:200% auto;
+  -webkit-background-clip:text;background-clip:text;color:transparent;-webkit-text-fill-color:transparent;animation:shine 6s linear infinite}
+.beat{display:inline-block;font-size:34px;color:#b8283f;margin:10px 0 6px;animation:beat 1.3s ease-in-out infinite}
+@keyframes beat{0%,100%{transform:scale(1)}15%{transform:scale(1.25)}30%{transform:scale(1)}45%{transform:scale(1.18)}}
+.sign{font-family:"Aref Ruqaa",serif;font-size:24px;color:var(--gold-deep);line-height:1.7;margin-top:6px}
+.sign small{display:block;font-family:"Almarai",sans-serif;font-size:13px;color:var(--ink-soft)}
+footer{text-align:center;font-size:12px;color:var(--ink-soft);padding:10px 0 30px;opacity:.8}
+
+/* ---------- Music button ---------- */
+#music{position:fixed;z-index:40;bottom:18px;left:18px;width:50px;height:50px;border-radius:50%;display:none;align-items:center;justify-content:center;
+  background:linear-gradient(135deg,var(--gold-deep),var(--gold));color:#fff;box-shadow:0 10px 24px -8px rgba(154,113,48,.8)}
+#music.show{display:flex}
+#music svg{width:22px;height:22px}
+#music.playing{animation:spinSlow 6s linear infinite}
+@keyframes spinSlow{to{transform:rotate(360deg)}}
+#confetti{position:fixed;top:0;left:0;width:100%;height:100%;pointer-events:none;z-index:70}
+
+@media (min-width:640px){
+  .det-grid{grid-template-columns:1fr 1fr}
+  .det.wide{grid-column:1 / -1}
+  .card{padding:40px 34px}
+  .families .col p{font-size:16px}
+  .flora.tr,.flora.bl{width:190px}
+}
+@media (max-width:420px){
+  .families{grid-template-columns:1fr;gap:2px}
+  .families .vline{width:70px;height:1.5px;margin:6px auto;background:linear-gradient(90deg,transparent,var(--gold),transparent)}
+  .names .laurel{width:38px;height:84px}
+  .names h1{gap:8px}
+  .arch{padding:44px 14px 30px}
+  .verse{font-size:17px;padding:0 6px}
+}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}
+}
+</style>
+</head>
+<body class="locked">
+
+<div class="bg" aria-hidden="true">
+  <svg viewBox="0 0 400 800" preserveAspectRatio="none">
+    <defs>
+      <linearGradient id="silk1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e3b4a8" stop-opacity=".55"/><stop offset="1" stop-color="#f3d9cf" stop-opacity=".15"/></linearGradient>
+      <linearGradient id="silk2" x1="1" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#d9a294" stop-opacity=".45"/><stop offset="1" stop-color="#f6e3da" stop-opacity=".1"/></linearGradient>
+    </defs>
+    <path d="M0 0 H140 C110 90 40 140 60 260 C75 350 20 420 0 470 Z" fill="url(#silk1)"/>
+    <path d="M0 0 H70 C60 120 10 170 25 300 C30 360 10 400 0 420 Z" fill="url(#silk2)"/>
+    <path d="M400 800 H230 C300 720 330 650 320 560 C312 480 370 430 400 400 Z" fill="url(#silk1)"/>
+    <path d="M400 800 H310 C350 740 380 690 372 620 C366 560 392 530 400 515 Z" fill="url(#silk2)"/>
+    <path d="M150 0 C120 120 60 180 70 320" stroke="#c9a05a" stroke-opacity=".45" stroke-width=".8" fill="none"/>
+    <path d="M400 380 C360 470 300 520 310 680 C312 730 290 770 260 800" stroke="#c9a05a" stroke-opacity=".45" stroke-width=".8" fill="none"/>
+  </svg>
+</div>
+
+<!-- Reusable SVG symbols -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <linearGradient id="goldG" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#9a7130"/><stop offset=".45" stop-color="#e6c98c"/><stop offset="1" stop-color="#a77b35"/>
+    </linearGradient>
+    <symbol id="orn" viewBox="0 0 24 24"><g fill="#bf9346"><circle cx="12" cy="12" r="2.2"/><path d="M12 2c1.6 3 1.6 5.2 0 7-1.6-1.8-1.6-4 0-7zM12 22c-1.6-3-1.6-5.2 0-7 1.6 1.8 1.6 4 0 7zM2 12c3-1.6 5.2-1.6 7 0-1.8 1.6-4 1.6-7 0zM22 12c-3 1.6-5.2 1.6-7 0 1.8-1.6 4-1.6 7 0z"/></g></symbol>
+    <symbol id="laurel" viewBox="0 0 60 120"><g id="laurelInner"></g></symbol>
+    <symbol id="flora" viewBox="0 0 200 200"><g id="floraInner"></g></symbol>
+  </defs>
+</svg>
+
+<!-- ============ Envelope intro ============ -->
+<div id="intro" role="dialog" aria-label="افتح الدعوة">
+  <div class="env-wrap" id="envWrap">
+    <div class="env"></div>
+    <div class="flap"></div>
+    <svg class="flap-line" viewBox="0 0 100 62" preserveAspectRatio="none"><polyline points="0,0 50,62 100,0" fill="none" stroke="#bf9346" stroke-width=".6" vector-effect="non-scaling-stroke"/></svg>
+    <div class="seal"><span>م<small>♥</small>ت</span></div>
+  </div>
+  <div class="intro-txt">
+    <div class="intro-guest" id="introGuest">دعوة خاصة</div>
+    <div class="intro-names">مازن<span class="amp">&amp;</span>تبيان</div>
+    <button class="open-btn" id="openBtn" type="button">افتح الدعوة</button>
+  </div>
+</div>
+
+<canvas id="confetti"></canvas>
+<audio id="audio" src="music.mp3" loop preload="metadata"></audio>
+<button id="music" type="button" aria-label="تشغيل/إيقاف الموسيقى">
+  <svg id="icOn" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg>
+  <svg id="icOff" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display:none"><path d="M11 5 6 9H2v6h4l5 4V5z"/><line x1="23" y1="9" x2="17" y2="15"/><line x1="17" y1="9" x2="23" y2="15"/></svg>
+</button>
+
+<main>
+  <!-- ============ Hero ============ -->
+  <section class="hero" id="top">
+    <div class="arch">
+      <svg class="flora tr" viewBox="0 0 200 200"><use href="#flora"/></svg>
+      <svg class="flora bl" viewBox="0 0 200 200"><use href="#flora"/></svg>
+      <i class="twinkle" style="top:14%;right:18%;animation-delay:.2s"></i>
+      <i class="twinkle" style="top:30%;left:10%;animation-delay:1.3s"></i>
+      <i class="twinkle" style="bottom:22%;right:8%;animation-delay:2.1s"></i>
+      <i class="twinkle" style="top:8%;left:30%;animation-delay:.8s"></i>
+
+      <div class="basmala">بسم الله الرحمن الرحيم</div>
+      <p class="verse">﴿وَمِنْ آيَاتِهِ أَنْ خَلَقَ لَكُم مِّنْ أَنفُسِكُمْ أَزْوَاجًا لِّتَسْكُنُوا إِلَيْهَا وَجَعَلَ بَيْنَكُم مَّوَدَّةً وَرَحْمَةً﴾<small>سورة الروم، الآية 21</small></p>
+
+      <div class="orn"><svg><use href="#orn"/></svg></div>
+      <div class="title">دعوة زواج</div>
+      <div class="orn"><svg><use href="#orn"/></svg></div>
+
+      <div class="families">
+        <div class="col"><p>آل المرحوم صالح عثمان احمد دياب</p><p>آل المرحوم جلال الدين إسحق عبدالله</p></div>
+        <div class="vline"></div>
+        <div class="col"><p>آل عبدالله رجب حسن</p><p>آل المرحوم بابكر احمد بابكر</p></div>
+      </div>
+
+      <p class="invite-line">يتشرفون بدعوتكم لمشاركتهم فرحة زفاف</p>
+      <p class="guest-line" id="heroGuest" hidden></p>
+
+      <div class="names">
+        <svg class="laurel r" viewBox="0 0 60 120"><use href="#laurel"/></svg>
+        <h1><span>مازن</span><span class="amp">&amp;</span><span>تبيان</span></h1>
+        <svg class="laurel l" viewBox="0 0 60 120"><use href="#laurel"/></svg>
+      </div>
+      <p class="blessing">وذلك بمشيئة الله تعالى وتوفيقه</p>
+
+      <div class="orn"><svg><use href="#orn"/></svg></div>
+      <div class="scroll-hint" aria-hidden="true">
+        <span>التفاصيل</span>
+        <svg viewBox="0 0 24 24" fill="none" stroke="#bf9346" stroke-width="2" stroke-linecap="round"><path d="M6 9l6 6 6-6"/></svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ Rings line-art ============ -->
+  <section class="art reveal" id="art" aria-hidden="true">
+    <svg viewBox="0 0 260 230">
+      <path class="draw thin" d="M40 205 Q130 222 220 205"/>
+      <circle class="draw" cx="104" cy="128" r="48"/>
+      <circle class="draw thin" cx="104" cy="128" r="41"/>
+      <circle class="draw m" cx="156" cy="128" r="48"/>
+      <circle class="draw m thin" cx="156" cy="128" r="41"/>
+      <path class="draw" d="M141 74 l15-16 15 16 -15 14 z M141 74 h30 M149 66 l7 22 7-22"/>
+      <path class="draw thin" d="M156 50 v-12 M140 54 l-7-9 M172 54 l7-9"/>
+    </svg>
+  </section>
+  <p class="art-cap reveal">على بركة الله</p>
+
+  <div style="height:30px"></div>
+  <div class="soon" id="soon"></div>
+
+  <!-- ============ Countdown ============ -->
+  <section class="card reveal" id="countdown">
+    <h2 class="h2">العدّ التنازلي</h2>
+    <p class="sub">حتى ليلة العمر</p>
+    <div class="cd" id="cd">
+      <div><b id="cdD">00</b><span>يوم</span></div>
+      <div><b id="cdH">00</b><span>ساعة</span></div>
+      <div><b id="cdM">00</b><span>دقيقة</span></div>
+      <div><b id="cdS">00</b><span>ثانية</span></div>
+    </div>
+    <p class="cd-done" id="cdDone">تمّ الزفاف بحمد الله، بارك الله لهما وبارك عليهما</p>
+  </section>
+
+  <!-- ============ Details ============ -->
+  <section class="card reveal" id="details">
+    <h2 class="h2">موعدنا</h2>
+    <p class="sub">يسعدنا حضوركم ومشاركتكم فرحتنا</p>
+    <div class="det-grid">
+      <div class="det">
+        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4.5" width="18" height="16" rx="2.5"/><path d="M3 9.5h18M8 2.5v4M16 2.5v4"/><circle cx="8" cy="13.5" r=".6" fill="currentColor"/><circle cx="12" cy="13.5" r=".6" fill="currentColor"/><circle cx="16" cy="13.5" r=".6" fill="currentColor"/><circle cx="8" cy="17" r=".6" fill="currentColor"/><circle cx="12" cy="17" r=".6" fill="currentColor"/></svg></div>
+        <div>
+          <h3>اليوم والتاريخ</h3>
+          <p>يوم الجمعة</p>
+          <p class="big"><bdi dir="ltr">30 / 10 / 2026</bdi></p>
+          <p class="note" id="hijri"></p>
+        </div>
+      </div>
+      <div class="det">
+        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></svg></div>
+        <div>
+          <h3>الموعد</h3>
+          <p id="timeText"></p>
+          <span class="pill" id="timePill"></span>
+          <p class="note">بتوقيت القاهرة</p>
+        </div>
+      </div>
+      <div class="det wide">
+        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.6"/></svg></div>
+        <div>
+          <h3>المكان</h3>
+          <p class="big">قاعات سيتي مارك · قاعة كيمبنسكي</p>
+          <p class="en">City Mark Resort · Kempinski Hall</p>
+          <p class="note">الهرم، الجيزة</p>
+        </div>
+      </div>
+    </div>
+    <div class="btns">
+      <a class="btn primary" id="mapBtn" target="_blank" rel="noopener" href="https://maps.google.com/?q=City+Mark+Resort,+Atati,+Al+Haram,+Giza+Governorate&amp;ftid=0x145845003f8a29a3:0x589a97b5bd27e17c">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 4 3 6.5v13.5l6-2.5 6 2.5 6-2.5V4l-6 2.5L9 4z"/><path d="M9 4v13.5M15 6.5V20"/></svg>
+        الموقع
+      </a>
+      <button class="btn" id="calBtn" type="button">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4.5" width="18" height="16" rx="2.5"/><path d="M3 9.5h18M8 2.5v4M16 2.5v4M12 12.5v5M9.5 15h5"/></svg>
+        أضف للتقويم
+      </button>
+      <button class="btn" id="shareBtn" type="button">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="2.6"/><circle cx="6" cy="12" r="2.6"/><circle cx="18" cy="19" r="2.6"/><path d="m8.3 10.8 7.4-4.4M8.3 13.2l7.4 4.4"/></svg>
+        مشاركة
+      </button>
+    </div>
+  </section>
+
+  <!-- ============ Closing ============ -->
+  <section class="closing reveal">
+    <div class="inner">
+      <h2 class="h2">بحضوركم تكتمل فرحتنا</h2>
+      <div class="beat" aria-hidden="true">♥</div>
+      <p style="color:var(--ink-soft);font-size:15px">نسأل الله أن يبارك لهما وأن يجمع بينهما في خير</p>
+      <div class="orn"><svg><use href="#orn"/></svg></div>
+      <div class="sign">مازن &amp; تبيان<small>وأسرتاهما الكريمتان</small></div>
+    </div>
+  </section>
+
+  <footer>دعوة زفاف مازن وتبيان · 30 أكتوبر 2026</footer>
+</main>
+
+<div class="toast" id="toast"></div>
+
+<script>
+(function(){
+  "use strict";
+
+  /* ====== Settings ======
+     Egypt leaves daylight saving at midnight on Fri 30 Oct 2026,
+     so the wedding night is on winter time: UTC+02:00.          */
+  var WEDDING   = new Date("2026-10-30T20:00:00+02:00");  // start: 8:00 PM Cairo
+  var WEDDING_END = new Date("2026-10-31T01:00:00+02:00"); // end: 1:00 AM Cairo
+  var TIME_TEXT = "من الساعة 8:00 مساءً";
+  var TIME_PILL = "8:00 م ← 1:00 ص";
+  var AUTO_SCROLL_SPEED = 1.5;   // px per frame (~90 px/s). 1.2 relaxed | 2.0 energetic
+  var AUTO_SCROLL_DELAY = 3000;  // ms after opening
+
+  var $ = function(id){ return document.getElementById(id); };
+
+  /* ---- Decorations (laurel + baby's breath) ---- */
+  (function buildDecor(){
+    var ns = "http://www.w3.org/2000/svg";
+    function el(tag, attrs, parent){ var e=document.createElementNS(ns,tag); for(var k in attrs) e.setAttribute(k,attrs[k]); parent.appendChild(e); return e; }
+    // laurel: stem curving upward with paired leaves
+    var L = $("laurelInner");
+    el("path",{d:"M40 116 C18 90 14 52 34 6",fill:"none",stroke:"url(#goldG)","stroke-width":"1.8","stroke-linecap":"round"},L);
+    for(var i=0;i<8;i++){
+      var t=i/8, y=110-t*100, x=40-Math.sin(t*Math.PI*0.95)*20 - t*2;
+      var rot=-20 - t*25;
+      el("ellipse",{cx:x-7,cy:y-2,rx:8,ry:3.2,fill:"url(#goldG)",transform:"rotate("+(rot-30)+" "+(x-7)+" "+(y-2)+")"},L);
+      el("ellipse",{cx:x+6,cy:y-5,rx:7,ry:2.8,fill:"url(#goldG)",opacity:".85",transform:"rotate("+(rot+40)+" "+(x+6)+" "+(y-5)+")"},L);
+    }
+    el("ellipse",{cx:34,cy:4,rx:3,ry:6,fill:"url(#goldG)"},L);
+    // flora: stems + gold leaves + white blossoms
+    var F = $("floraInner");
+    var stems=[["M200 0 C150 30 110 60 70 120",120],["M200 0 C170 50 150 90 140 170",110],["M200 0 C140 10 90 20 30 50",110],["M200 0 C160 40 120 50 90 70",60]];
+    stems.forEach(function(s){ el("path",{d:s[0],fill:"none",stroke:"#c9a05a","stroke-width":"1.1","stroke-opacity":".8"},F); });
+    var leaves=[[150,40,-35],[118,70,-50],[165,78,-70],[95,30,-15],[60,46,-20],[150,120,-80]];
+    leaves.forEach(function(l){ el("path",{d:"M0 0 C8 -9 26 -9 34 0 C26 9 8 9 0 0Z",fill:"url(#goldG)",opacity:".9",transform:"translate("+l[0]+" "+l[1]+") rotate("+l[2]+")"},F); });
+    var pts=[[70,120],[78,108],[62,110],[86,100],[140,170],[132,158],[148,156],[144,140],[30,50],[44,44],[38,60],[56,40],[90,70],[100,62],[82,78],[110,96],[125,130],[60,95],[105,40],[120,52]];
+    pts.forEach(function(p,i){
+      var r = 4 + (i%3);
+      var g = el("g",{transform:"translate("+p[0]+" "+p[1]+")"},F);
+      for(var k=0;k<5;k++){ var a=k*72*Math.PI/180; el("circle",{cx:(Math.cos(a)*r*.8).toFixed(2),cy:(Math.sin(a)*r*.8).toFixed(2),r:(r*.62).toFixed(2),fill:"#fffdf9",stroke:"#ead9cf","stroke-width":".5"},g); }
+      el("circle",{cx:0,cy:0,r:(r*.35).toFixed(2),fill:"#e2bb63"},g);
+    });
+  })();
+
+  /* ---- Guest name (?guest=...) ---- */
+  var guest = "";
+  try {
+    guest = (new URLSearchParams(location.search).get("guest") || "").replace(/[<>]/g,"").trim().slice(0,40);
+  } catch(e){}
+  if (guest){
+    var ig=$("introGuest"); ig.textContent=""; ig.appendChild(document.createTextNode("أهلاً بك يا ")); var b=document.createElement("b"); b.textContent=guest; ig.appendChild(b);
+    var hg=$("heroGuest"); hg.hidden=false; hg.appendChild(document.createTextNode("ضيفنا العزيز ")); var b2=document.createElement("b"); b2.textContent=guest; hg.appendChild(b2);
+  }
+
+  /* ---- Time + Hijri ---- */
+  $("timeText").textContent = TIME_TEXT;
+  $("timePill").textContent = TIME_PILL;
+  try {
+    var hijri = new Intl.DateTimeFormat("ar-u-ca-islamic-umalqura-nu-latn",{day:"numeric",month:"long",year:"numeric",timeZone:"Africa/Cairo"}).format(WEDDING);
+    $("hijri").textContent = hijri.replace(/\s*هـ\s*$/,"") + " هـ";
+  } catch(e){}
+
+  /* ---- Countdown ---- */
+  function pad(n){ return (n<10?"0":"")+n; }
+  function tick(){
+    var now = Date.now(), diff = WEDDING - now;
+    if (diff <= 0){
+      $("cd").style.display="none";
+      $("cdDone").style.display="block";
+      if (now < WEDDING_END){ $("cdDone").textContent = "الحفل قائم الآن، أهلاً وسهلاً بكم"; }
+      return false;
+    }
+    var s=Math.floor(diff/1000), d=Math.floor(s/86400); s-=d*86400;
+    var h=Math.floor(s/3600); s-=h*3600; var m=Math.floor(s/60); s-=m*60;
+    $("cdD").textContent=pad(d); $("cdH").textContent=pad(h); $("cdM").textContent=pad(m); $("cdS").textContent=pad(s);
+    // "soon" banner during the last 7 days
+    var soon=$("soon");
+    if (diff <= 7*86400000){
+      soon.classList.add("show");
+      soon.textContent = d === 0 ? "الليلة ليلة الفرح! بانتظاركم" : (d === 1 ? "غداً موعدنا، بانتظاركم" : "اقترب الموعد، باقي " + d + " أيام");
+    }
+    return true;
+  }
+  if (tick()){ var cdTimer=setInterval(function(){ if(!tick()) clearInterval(cdTimer); },1000); }
+
+  /* ---- Reveal on scroll + line-art draw ---- */
+  var drawPaths = document.querySelectorAll("#art .draw");
+  for (var i=0;i<drawPaths.length;i++){
+    var p=drawPaths[i], len=0; try{ len=p.getTotalLength(); }catch(e){ len=400; }
+    p.style.strokeDasharray=len; p.style.strokeDashoffset=len;
+    p.style.transition="stroke-dashoffset 2.4s ease " + (i*0.18) + "s";
+  }
+  var heartsStarted=false;
+  function startHearts(){
+    if (heartsStarted) return; heartsStarted=true;
+    var art=$("art");
+    for (var k=0;k<7;k++){
+      var h=document.createElement("span"); h.className="heart-float"; h.textContent="♥";
+      h.style.left=(18+Math.random()*64)+"%"; h.style.animationDelay=(k*0.8)+"s"; h.style.fontSize=(12+Math.random()*12)+"px";
+      art.appendChild(h);
+    }
+  }
+  function onReveal(el){
+    el.classList.add("in");
+    if (el.id==="art"){ for(var j=0;j<drawPaths.length;j++) drawPaths[j].style.strokeDashoffset=0; startHearts(); }
+  }
+  var reveals=document.querySelectorAll(".reveal");
+  if ("IntersectionObserver" in window){
+    var io=new IntersectionObserver(function(entries){
+      entries.forEach(function(en){ if(en.isIntersecting){ onReveal(en.target); io.unobserve(en.target); } });
+    },{threshold:.18});
+    for (var r=0;r<reveals.length;r++) io.observe(reveals[r]);
+  } else { for (var r2=0;r2<reveals.length;r2++) onReveal(reveals[r2]); }
+
+  /* ---- Confetti (gold flakes + blush petals) ---- */
+  function confetti(){
+    var c=$("confetti"), ctx=c.getContext("2d"), dpr=Math.min(window.devicePixelRatio||1,2);
+    c.width=innerWidth*dpr; c.height=innerHeight*dpr; ctx.scale(dpr,dpr);
+    var colors=["#bf9346","#e6c98c","#f4e2b0","#9a7130","#e8c3b9","#cf9d92","#ffffff"];
+    var parts=[];
+    for (var i=0;i<150;i++){
+      parts.push({x:innerWidth/2,y:innerHeight*0.45,vx:(Math.random()-.5)*14,vy:-Math.random()*13-4,
+        w:Math.random()*8+4,h:Math.random()*5+3,r:Math.random()*Math.PI,vr:(Math.random()-.5)*.3,
+        c:colors[i%colors.length],petal:Math.random()<.35});
+    }
+    var t0=performance.now();
+    (function frame(t){
+      ctx.clearRect(0,0,innerWidth,innerHeight);
+      parts.forEach(function(p){
+        p.vy+=.28; p.vx*=.99; p.x+=p.vx; p.y+=p.vy; p.r+=p.vr;
+        ctx.save(); ctx.translate(p.x,p.y); ctx.rotate(p.r); ctx.fillStyle=p.c;
+        if (p.petal){ ctx.beginPath(); ctx.ellipse(0,0,p.w*.7,p.h*.6,0,0,Math.PI*2); ctx.fill(); }
+        else ctx.fillRect(-p.w/2,-p.h/2,p.w,p.h);
+        ctx.restore();
+      });
+      if (t-t0<4200) requestAnimationFrame(frame); else ctx.clearRect(0,0,innerWidth,innerHeight);
+    })(t0);
+  }
+
+  /* ---- Music ---- */
+  var audio=$("audio"), mBtn=$("music"), hasMusic=false;
+  audio.addEventListener("loadedmetadata",function(){ hasMusic=true; });
+  audio.addEventListener("error",function(){ hasMusic=false; mBtn.classList.remove("show"); });
+  function setMusicUI(){
+    var on=!audio.paused;
+    mBtn.classList.toggle("playing",on);
+    $("icOn").style.display=on?"":"none"; $("icOff").style.display=on?"none":"";
+  }
+  mBtn.addEventListener("click",function(){
+    if (audio.paused){ audio.play().catch(function(){}); } else { audio.pause(); }
+  });
+  audio.addEventListener("play",setMusicUI); audio.addEventListener("pause",setMusicUI);
+
+  /* ---- Auto-scroll (stops for good on any interaction) ---- */
+  var autoTimer=null, autoRaf=null, autoStopped=false, userScrolled=false;
+  function stopAuto(){ autoStopped=true; clearTimeout(autoTimer); if(autoRaf) cancelAnimationFrame(autoRaf); }
+  ["touchstart","wheel","keydown","mousedown"].forEach(function(ev){ window.addEventListener(ev,function(){ if(document.body.classList.contains("locked")) return; userScrolled=true; stopAuto(); },{passive:true}); });
+  function startAutoScrollTimer(){
+    autoTimer=setTimeout(function(){
+      if (userScrolled || autoStopped) return;
+      var pos=window.pageYOffset;
+      (function step(){
+        if (autoStopped) return;
+        var max=document.documentElement.scrollHeight-innerHeight;
+        pos=Math.min(pos+AUTO_SCROLL_SPEED,max); window.scrollTo(0,pos);
+        if (pos<max) autoRaf=requestAnimationFrame(step); else stopAuto();
+      })();
+    },AUTO_SCROLL_DELAY);
+  }
+
+  /* ---- Open the envelope ---- */
+  function resetIntro(){
+    var intro=$("intro"); intro.classList.remove("gone"); intro.style.display="";
+    $("envWrap").classList.remove("opening"); document.body.classList.add("locked");
+    window.scrollTo(0,0); autoStopped=false; userScrolled=false;
+  }
+  $("openBtn").addEventListener("click",function(){
+    $("envWrap").classList.add("opening");
+    if (hasMusic || audio.readyState>0){ audio.play().catch(function(){}); }
+    setTimeout(function(){
+      $("intro").classList.add("gone"); document.body.classList.remove("locked"); confetti();
+      if (hasMusic || audio.readyState>0) mBtn.classList.add("show");
+      startAutoScrollTimer();
+      setTimeout(function(){ $("intro").style.display="none"; },950);
+    },850);
+  });
+  window.addEventListener("pageshow",function(e){ if(e.persisted){ audio.pause(); stopAuto(); resetIntro(); } });
+  if ("scrollRestoration" in history) history.scrollRestoration="manual";
+
+  /* ---- Toast ---- */
+  function toast(msg){ var t=$("toast"); t.textContent=msg; t.classList.add("show"); setTimeout(function(){ t.classList.remove("show"); },2400); }
+
+  /* ---- Add to calendar (.ics, times in UTC) ---- */
+  function icsDate(d){ return d.toISOString().replace(/[-:]/g,"").replace(/\.\d{3}/,""); }
+  $("calBtn").addEventListener("click",function(){
+    var ics=[
+      "BEGIN:VCALENDAR","VERSION:2.0","PRODID:-//Mazin-Tibyan//Wedding//AR","CALSCALE:GREGORIAN","METHOD:PUBLISH",
+      "BEGIN:VEVENT",
+      "UID:mazin-tibyan-20261030@wedding",
+      "DTSTAMP:"+icsDate(new Date()),
+      "DTSTART:"+icsDate(WEDDING),
+      "DTEND:"+icsDate(WEDDING_END),
+      "SUMMARY:زفاف مازن & تبيان",
+      "LOCATION:قاعات سيتي مارك - قاعة كيمبنسكي\\, الهرم\\, الجيزة (City Mark Resort - Kempinski Hall\\, Al Haram\\, Giza)",
+      "DESCRIPTION:بحضوركم تكتمل فرحتنا. الموقع: "+$("mapBtn").href.replace(/,/g,"\\,"),
+      "BEGIN:VALARM","TRIGGER:-PT3H","ACTION:DISPLAY","DESCRIPTION:زفاف مازن & تبيان","END:VALARM",
+      "END:VEVENT","END:VCALENDAR"
+    ].join("\r\n");
+    var blob=new Blob([ics],{type:"text/calendar;charset=utf-8"});
+    var a=document.createElement("a"); a.href=URL.createObjectURL(blob); a.download="mazin-tibyan-wedding.ics";
+    document.body.appendChild(a); a.click(); setTimeout(function(){ URL.revokeObjectURL(a.href); a.remove(); },1500);
+  });
+
+  /* ---- Share ---- */
+  $("shareBtn").addEventListener("click",function(){
+    var url=location.origin+location.pathname;
+    var text="دعوة زفاف مازن & تبيان · الجمعة 30 أكتوبر 2026 · قاعات سيتي مارك، الهرم";
+    if (navigator.share){ navigator.share({title:"دعوة زفاف مازن & تبيان",text:text,url:url}).catch(function(){}); return; }
+    if (navigator.clipboard){ navigator.clipboard.writeText(url).then(function(){ toast("تم نسخ رابط الدعوة"); },function(){ window.open("https://wa.me/?text="+encodeURIComponent(text+"\n"+url),"_blank"); }); }
+    else window.open("https://wa.me/?text="+encodeURIComponent(text+"\n"+url),"_blank");
+  });
+})();
+</script>
+</body>
+</html>
